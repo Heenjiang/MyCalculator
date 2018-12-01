@@ -1,4 +1,4 @@
-# MyCalculatorH
+# MyCalculator
 This is a simple application for android development 
 "MyCalculator" application has impliments such function:
   1. first activity for input these numbers you want to calculate(siginle or double float number)
