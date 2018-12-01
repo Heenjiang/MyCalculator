@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/welcome_to_calculator"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/first_num"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:inputType="number|numberDecimal"
+        android:singleLine="true"
+        android:background="@drawable/edit_bg"
+        android:hint="@string/hint_first"
+        android:textColorHint="@color/colorPrimary">
+    </EditText>
+
+    <EditText
+        android:id="@+id/second_num"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:inputType="number|numberDecimal"
+        android:singleLine="true"
+        android:background="@drawable/edit_bg"
+        android:hint="@string/hint_second"
+        android:textColorHint="@color/colorPrimary">
+    </EditText>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/rightArrow"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:background="@color/buttonBlue"
+        android:textSize="22dp" />
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/exitArrow"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:background="@color/buttonBlue"
+        android:textSize="22dp" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyCalculator</string>
+    <string name="welcome_to_calculator">Welcome to calculator!</string>
+    <string name="hint_first">Enter the first number</string>
+    <string name="hint_second">Enter the second number</string>
+    <string name="leftArrow">previous</string>
+    <string name="rightArrow">next</string>
+    <string name="exitArrow">exit</string>
+</resources>
